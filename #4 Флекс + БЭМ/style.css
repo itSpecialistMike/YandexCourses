@@ -2,16 +2,22 @@
     font-family: 'Cormorant Garamond';
 }
 
+.page__menu {
+    margin: 40px auto;
+}
+
+.centered-block {
+    margin: auto;
+}
+
 .header {
     height: 95px;
     display: flex;
     max-width: 1330px;
     min-width: 1280px;
-    margin: auto;
 }
 
 .header__link {
-    margin: auto;
     font-size: 28px;
     text-decoration: none;
     color: #10191E;
@@ -60,6 +66,10 @@
     flex-wrap: wrap;
 }
 
+.flex-row_space_bottom {
+    margin: 60px 0;
+}
+
 .flex-column {
     display: flex;
     justify-content: space-between;
@@ -85,7 +95,6 @@
 
 .flex-row_reversed {
     flex-direction: row-reverse;
-    margin: 60px 0;
 }
 
 .menu {
@@ -96,7 +105,6 @@
     flex-wrap: wrap;
     max-width: 1330px;
     min-width: 1280px;
-    margin: 40px auto;
 }
 
 .project_name_how-to-study {
@@ -120,7 +128,6 @@
     justify-content: center;
     max-width: 1330px;
     min-width: 1280px;
-    margin: auto;
 }
 
 .footer__logo {
@@ -136,7 +143,6 @@
 .content {
     max-width: 1330px;
     min-width: 1280px;
-    margin: auto;
 }
 
 .menu__link {
