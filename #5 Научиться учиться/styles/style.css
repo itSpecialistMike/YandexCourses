@@ -280,6 +280,7 @@
   z-index: 0;
   width: 877px;
   height: 877px;
+  background-image: url("../images/kaufman-triangle.svg");
 }
 
 .footer {
