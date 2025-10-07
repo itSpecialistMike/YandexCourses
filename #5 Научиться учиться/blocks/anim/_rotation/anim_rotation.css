@@ -1,8 +1,4 @@
-.__anim_rotation {
-    animation:  rotation 30s infinite linear;
-}
-
-@keyframes rotation {
+@keyframes anim_rotation {
     from {
         transform: rotate(0deg);
     }
