@@ -4,5 +4,6 @@
     top: 64px;
     width: 568px;
     height: 568px;
-    background-color: #2f80ed;
+    background-color: var(--color-light-blue);
+
 }
