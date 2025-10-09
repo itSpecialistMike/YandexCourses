@@ -18,7 +18,9 @@
 
 /* Блок square-pic */
 @import url('../blocks/square-pic/square-pic.css');
-@import url('../blocks/square-pic/_rotation/square-pic_anim_rotation.css');
+/* Анимация square-pic */
+@import url('../blocks/rotation/rotation.css');
+@import url('../blocks/square-pic/_rotation/square-pic_rotation.css');
 
 /* Блок title */
 @import url('../blocks/title/title.css');
@@ -106,8 +108,7 @@
 @import url('../blocks/section-title/_theme/section-title_theme_dark.css');
 @import url('../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css');
 
-/* anim */
-@import url('../blocks/rotation/anim_rotation.css');
+
 
 /* Блок resources */
 @import url('../blocks/resources/resources.css');
